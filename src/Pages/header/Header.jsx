@@ -37,7 +37,7 @@ const {auth,setAuth} = useContext(Authcontext)
          <div className="nav">
             <div className='left'>
            <div>
-           <img src="public/icon-park-solid_movie.png" alt="" />
+           <img src="icon-park-solid_movie.png" alt="" />
            </div>
            <div>
            <h1>MovieHub</h1>
