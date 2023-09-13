@@ -1,0 +1,135 @@
+.section {
+  width: 100%;
+  height: 520px;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section .inner {
+  padding: 40px 25px 0 25px;
+  width: 330px;
+  height: 450px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+.section .inner h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  margin-bottom: 25px;
+}
+.section .inner input {
+  width: 100%;
+  height: 45px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.section .inner button {
+  margin-top: 30px;
+  width: 100%;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+.section .inner button:hover{
+    background-color: rgb(194, 20, 20);
+}
+
+.section .inner p{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    text-align: end;
+    font-weight: 600;
+    color: #B3B3B3;
+    cursor: pointer;
+}
+.section .inner p:hover{
+  color: rgb(231, 83, 83);
+}
+
+.section .inner small{
+    color: #737373;
+font-family:sans-serif ;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.16px;
+
+}
+.section .inner span{
+    color: #ffffff;
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.16px;
+cursor: pointer;
+cursor: pointer;
+
+}
+.section .inner span:hover{
+   color: rgb(240, 71, 71);
+}
+
+.last{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+body.light .section .inner {
+  background-color: #ffffff;
+  
+}
+body.light .section .inner h1 {
+  color: #000000;
+
+}
+body.light .section .inner input {
+  border-bottom: 1px solid black;
+}
+.section .inner .errors{
+  color: red;
+  text-align: center;
+  font-family: sans-serif;
+}
+body.light .section .inner p{
+  color: #423a3a;
+}
+body.light .section .inner span{
+  color: #000000;
+  font-weight: 600;
+}
+body.light .section .inner p:hover{
+  color: rgb(240, 71, 71);
+}
+body.light .section .inner span:hover{
+  color: rgb(240, 71, 71);
+}

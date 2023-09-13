@@ -1,0 +1,116 @@
+.footer{
+    width: 100%;
+    min-height: 234px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    list-style: none;
+    padding-top: 20px;
+}
+.footer .inner-div .wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: calc(100%);
+    gap: 20px;
+}
+.footer .inner-div li{
+    color: #757575;
+font-family: sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.13px;
+text-align: center;
+margin-bottom: 5px;
+}
+.footer .inner-div .icons{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.footer .inner-div .icons li a{
+    font-size: 20px;
+    color: #757575;;
+    
+    
+}
+.footer .inner-div .drop select
+{
+    font-size: 17px;
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background: transparent;
+    padding-left: 30px;
+    color: #757575;
+    margin-left: 35px;
+    background-image: url('C:\Users\ameen\Desktop\Task 8\src\assets\icon-park-outline_earth.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left center ;
+    margin-top: 5px;
+
+}
+.footer .inner-div .globe{
+    height: 30px;
+    
+    left: 10px;
+    
+    font-size: 23px;
+    padding-top: 4px;
+
+}
+@media screen and (min-width : 600px){
+    .footer .inner-div .wrapper{
+        min-height: 170px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: calc(100%);
+        gap: 20px;
+    }
+    .footer .inner-div .icons{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 20px;
+     }
+     .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+}
+@media screen and (min-width : 1050px){
+    .footer .inner-div .wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        width: calc(100%);
+        min-height: 150px;
+        
+    }
+    .footer .inner-div li{
+        color: #757575;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.13px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+}
+body.light .footer{
+   
+    background: rgba(0, 0, 0, 0.85);
+  
+}

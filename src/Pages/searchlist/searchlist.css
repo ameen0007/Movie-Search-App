@@ -1,0 +1,114 @@
+.main-searchlist{
+  width: 85%;
+  margin: auto;
+  min-height: 600px;
+}
+
+.searchlist-container {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-top: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.searchlist-container .searchlist-div {
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(124, 121, 136);
+}
+.searchlist-container .searchlist-div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 500px) {
+  .searchlist-container .searchlist-div {
+    
+    height: 175px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .searchlist-container .searchlist-div {
+    height: 150px;
+  }
+  .searchlist-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+}
+@media screen and (min-width: 690px) {
+  .searchlist-container .searchlist-div {
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .searchlist-container .searchlist-div {
+    height: 160px;
+  }
+  .searchlist-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+}
+@media screen and (min-width: 930px) {
+  .searchlist-container .searchlist-div {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .searchlist-container .searchlist-div {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .searchlist-container .searchlist-div {
+    height: 190px;
+  }
+  .searchlist-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  
+  }
+}
+@media screen and (min-width: 1300px) {
+    .searchlist-container .searchlist-div {
+      height: 210px;
+    }
+  }
+  @media screen and (min-width: 1500px) {
+    .searchlist-container .searchlist-div {
+      height: 220px;
+      margin-bottom: 10px;
+    }
+    .searchlist-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+     
+    }
+  }
+  @media screen and (min-width: 1700px) {
+    .searchlist-container .searchlist-div {
+      height: 260px;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    .searchlist-container .searchlist-div {
+      height: 270px;
+      margin-bottom: 10px;
+    }
+    .searchlist-container {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+  }
+  @media screen and (min-width: 2150px) {
+    .searchlist-container .searchlist-div {
+      height: 290px;
+    }
+  }
